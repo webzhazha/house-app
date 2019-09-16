@@ -1,0 +1,21 @@
+.mygrid {
+    .column {
+        padding-top: .357143rem;
+        padding-bottom: .357143rem;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        &.row {
+            border: none;
+        }
+    }
+    .grid {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+.cblue {
+    color: blue;
+}
+.cpink {
+    color: pink;
+}

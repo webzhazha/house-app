@@ -1,0 +1,36 @@
+.myGroup {
+    display: flex;
+    justify-content: space-between;
+    padding-top: .714286rem;
+    padding-bottom: .714286rem;
+    .one {
+        padding: .714286rem;
+        img {
+            // width: 100%;
+            width: 3.571429rem;
+            height: 3.571429rem;
+        }
+    }
+    .two {
+        flex: 1;
+        font-size: 1.428571rem;
+        font-weight: 700;
+        padding-top: .714286rem;
+        div {
+            margin-bottom: .714286rem;
+            width: 17.857143rem;
+        }
+        .point {
+            color: orange;
+            margin-right: .714286rem;
+        }
+    }
+    .thr {
+        width: 3.571429rem;
+        text-align: center;
+        line-height: 5.285714rem;
+        i {
+            font-size: 2.142857rem;
+        }
+    }
+}

@@ -3,6 +3,16 @@ import qs from 'qs'
 
 axios.defaults.baseURL = 'http://47.96.21.88:8086'
 
+// 请求拦截器
+axios.interceptors.request.use(function(config){
+    if(!config.url.endsWith('/')){
+        config.headers.Authorization = localStorage.getItem('token')
+    }
+    return config;
+},function(error){
+    return Promise.reject(error)
+})
+
 let http ={
     get: '',
     post: ''

@@ -44,3 +44,45 @@ code {
 .mt20 {
   margin-top: 1.428571rem
 }
+
+.h60 {
+  height: 4.285714rem;
+}
+
+.mt5 {
+  margin-top: .357143rem;
+}
+
+.mb5 {
+  margin-bottom: .357143rem;
+}
+
+.mt38 {
+  margin-top: 2.714286rem;
+}
+
+.elli {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ml10 {
+  margin-left: .714286rem;
+}
+
+.c999 {
+  color: #999;
+}
+
+.fz20 {
+  font-size: 1.428571rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.orange {
+  color: orange;
+}

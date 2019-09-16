@@ -1,0 +1,27 @@
+.myGrid  {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9998;
+    background-color: #fff;
+    .active {
+        color: orange!important;
+    }
+    .column {
+        border-right: 1px solid #ccc;
+        padding-top: .357143rem;
+        a {
+            color: #999;
+        }
+        .row {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+    .column:last-child {
+        border-right: none
+    }
+    .grid {
+        margin: 0;
+    }
+}

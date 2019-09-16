@@ -5,6 +5,9 @@ import asyncComponent from '@/utils/asyncComponent'
 // 导入文件
 const Login = asyncComponent(() => import("@/page/login/index"))
 const Home = asyncComponent(() => import("@/page/home/index"))
+const Info = asyncComponent(() => import("@/page/info/index"))
+const Wechat = asyncComponent(() => import("@/page/wechat/index"))
+const Personal = asyncComponent(() => import("@/page/personal/index"))
 
 class RouteConfig extends React.Component {
     render(){
@@ -13,6 +16,9 @@ class RouteConfig extends React.Component {
                 <Switch>
                     <Route exact path='/' component={Login}></Route>
                     <Route path='/home' component={Home}></Route>
+                    <Route path='/info' component={Info}></Route>
+                    <Route path='/wechat' component={Wechat}></Route>
+                    <Route path='/personal' component={Personal}></Route>
                     <Redirect to='/' ></Redirect>
                 </Switch>
             </HashRouter>

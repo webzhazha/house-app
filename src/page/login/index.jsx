@@ -25,13 +25,10 @@ class Login extends Component {
     }
     submit=()=>{
         const { history } =this.props
-        console.log(this.state.name);
-        console.log(this.state.pas);
         axios.post('/users/login',{
             uname: this.state.name,
             pwd: this.state.pas
         }).then(res=>{
-            console.log(res);
             if(res.meta.status===200){
                 localStorage.setItem('token',res.data.token)
                 history.push('/home')

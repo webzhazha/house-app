@@ -1,0 +1,78 @@
+.home-calc {
+    position: fixed;
+    // bottom: 50px;
+    top: 0px;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+  }
+  .home-calc-title {
+    height: 50px;
+    line-height: 50px;
+    background-color: #F5F5F5;
+    text-align: center;
+    font-size: 22px;
+    z-index: 9999;
+    width: 100%;
+  }
+  .home-calc-title i {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+  }
+  .home-calc-content{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    top: 50px;
+  }
+  .ui.bottom.attached.segment.active.tab .six.wide.column {
+    line-height: 40px;
+    color: #000;
+  }
+  .calc-first-total {
+    width: 196px;
+  }
+  // .search-bar {
+  //   position: fixed;
+  //   bottom: 50px;
+  //   top: 38px;
+  //   z-index: 9999;
+  //   height: 100%;
+  //   width: 100%;
+  //   background-color: #fff;
+  // }
+  // .house-list {
+  //   position: fixed;
+  //   bottom: 0px;
+  //   top: 0px;
+  //   z-index: 9999;
+  //   height: 100%;
+  //   width: 100%;
+  //   background-color: #fff;
+  // }
+  // .house-list-title {
+  //   height: 50px;
+  //   line-height: 50px;
+  //   background-color: #F5F5F5;
+  //   text-align: center;
+  //   font-size: 22px;
+  //   z-index: 9999;
+  //   width: 100%;
+  // }
+  // .house-list-title i {
+  //   position: absolute;
+  //   left: 10px;
+  //   top: 8px;
+  // }
+  .calc-chart {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .first .dropdown {
+    z-index: 999999!important;
+  }
+  .row {
+    padding-bottom: 0!important;
+  }
