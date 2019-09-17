@@ -1,0 +1,29 @@
+.home-calc {
+    position: fixed;
+    // bottom: 50px;
+    top: 0px;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+  }
+  .home-calc-title {
+    height: 50px;
+    line-height: 50px;
+    background-color: #b5efff;;
+    text-align: center;
+    font-size: 22px;
+    z-index: 9999;
+    width: 100%;
+  }
+  .home-calc-title i {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+  }
+  .home-calc-content{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    top: 50px;
+  }

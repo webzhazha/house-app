@@ -175,7 +175,7 @@ class Calculator extends React.Component{
         return (
             <div className='home-calc'>
                 <div className = "home-calc-title">
-                <Icon name='angle left' size = 'large' onClick={this.props.calcChange}/>贷款利率计算 
+                <Icon name='angle left' size = 'large' onClick={this.props.gridChange}/>贷款利率计算 
                 </div> 
                 <div className = "map-calc-content">
                 <Tab className='home-calc-label' panes={panes} />

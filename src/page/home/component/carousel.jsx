@@ -7,13 +7,13 @@ class Carousel extends React.Component {
  
     const images = [
       {
-        original: 'http://image.ziroom.com/g2m2/M00/EF/45/CtgFCFz3OBWAYMIMAAN2tAN4ZtE566.jpg'
+        original: 'https://image.ziroom.com/g2m2/M00/EF/45/CtgFCFz3OBWAYMIMAAN2tAN4ZtE566.jpg'
       },
       {
-        original: 'http://image.ziroom.com/g2m2/M00/73/B4/CtgFCF0QRLCAdTcZAAH2VpnxJuM033.jpg'
+        original: 'https://image.ziroom.com/g2m2/M00/EF/45/CtgFCFz3OBWAYMIMAAN2tAN4ZtE566.jpg'
       },
       {
-        original: 'http://image.ziroom.com/g2m2/M00/7C/EC/CtgFCV16BG6AQx64AALfbzJM9X0138.jpg'
+        original: 'https://image.ziroom.com/g2m2/M00/EF/45/CtgFCFz3OBWAYMIMAAN2tAN4ZtE566.jpg'
       },
     ];
  

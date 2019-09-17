@@ -22,7 +22,7 @@ class Grids extends Component {
     render(){
         let list = this.state.menuList.map(item=>{
             return (
-                <Grid.Column key={item.id} className={item.id%2?'cblue':'cpink'} onClick={item.id===7?this.props.calcChange:null}>
+                <Grid.Column key={item.id} className={item.id%2?'cblue':'cpink'} onClick={this.props.gridChange.bind(this,item.id)}>
                  <div className='textc'>
                     <Icon name='home' size='large' />
                  </div>
