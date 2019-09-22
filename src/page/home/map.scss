@@ -1,0 +1,30 @@
+.map-house {
+    position: fixed;
+    bottom: 50px;
+    top: 0px;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    background-color: lightgreen;
+  }
+  .map-house-title {
+    // position: absolute;
+    height: 50px;
+    line-height: 50px;
+    background-color: #F5F5F5;
+    text-align: center;
+    font-size: 22px;
+    z-index: 9999;
+    width: 100%;
+  }
+  .map-house-title i {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+  }
+  .map-house-content{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    top: 50px;
+  }

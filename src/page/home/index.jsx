@@ -35,6 +35,8 @@ class Home extends Component {
             })
         }else if(id===8){
             this.props.history.push('/info')
+        }else if(id===5){
+            this.props.history.push('/home/map')
         }
     }
     calcChange=()=>{

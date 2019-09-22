@@ -8,6 +8,7 @@ const Home = asyncComponent(() => import("@/page/home/index"))
 const Info = asyncComponent(() => import("@/page/info/index"))
 const Wechat = asyncComponent(() => import("@/page/wechat/index"))
 const Personal = asyncComponent(() => import("@/page/personal/index"))
+const Map = asyncComponent(() => import("@/page/home/map"))
 
 class RouteConfig extends React.Component {
     render(){
@@ -15,7 +16,8 @@ class RouteConfig extends React.Component {
             <HashRouter>
                 <Switch>
                     <Route exact path='/' component={Login}></Route>
-                    <Route path='/home' component={Home}></Route>
+                    <Route exact path='/home' component={Home}></Route>
+                    <Route exact path='/home/map' component={Map}></Route>
                     <Route path='/info' component={Info}></Route>
                     <Route path='/wechat' component={Wechat}></Route>
                     <Route path='/personal' component={Personal}></Route>

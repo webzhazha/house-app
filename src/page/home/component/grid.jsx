@@ -1,6 +1,5 @@
 import React,{Component} from 'react'
 import { Grid, Icon } from 'semantic-ui-react'
-import { Link } from 'react-router-dom'
 import axios from '@/utils/axios'
 import './grids.scss'
 
